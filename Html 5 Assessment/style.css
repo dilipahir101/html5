@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* margin: 50px 50px 50px 50px; */
+    margin: px;
+}
+.container{
+    border: 2px solid black;
+    margin: 100px;
+    /* padding: 80px; */
+    background-color: rgb(109, 232, 232);
+    
+}
+.title{
+    color:black;
+    font-size: 20px;
+}
+.title .CU{
+    margin:15px;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    text-shadow: rgb(255, 0, 0) 1px 0 10px;
+}
+.container .first-box{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    margin: 30px;
+    background-color: #ffff;
+    padding: 20px;
+    transition: 0.7s;
+
+}
+.container .first-box:hover{
+    border-radius: 20px;
+    background-color: rgb(183, 245, 59);
+    
+}
+.container .address{
+    /* border: 2px solid red; */
+}
+.container .address .ad{
+    margin: 5px;
+    font-size: 20px;
+    padding-left: 10px;
+    
+}
+.container .address .a{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.container .no-email{
+    /* border: 2px solid black; */
+    padding-top: 30px;
+    font-size: 20px;
+    
+}
+.container .no-email .no{
+    color: red;
+    font-size: 22px;
+    transition: 0.5s;
+}
+.container .no-email .no:hover{
+    transform: scale(1.2);
+}
+.container .no-email .gmail{
+    color: rgb(27, 204, 240);
+    transition: 0.5s;
+}
+.container .no-email .gmail:hover{
+    transform: scale(1.2);
+}
+.container .location-icon{
+    color: red;
+    font-size: 40px;
+    padding-top: 25px;
+    padding-right: 150px;
+    transition: 0.5s;
+}
+.container .location-icon:hover{
+    transform: scale(1.5);
+
+}
+
+/* -----second box----- */
+
+.container .main-text{
+    width: 50%;
+    height: 100px;
+}
+.container .text-box{
+    /* border: 2px solid black;    */
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.container .text-box .map{
+    margin: 20px;
+    
+}
+/* .container .second-box .name-com{
+    /* border: 2px solid red; */
+    
+.main-text{
+    width: 50%;
+}
+.map{
+    width: 50%;
+}
+.container .second-box .textarea{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.container .second-box .main-text{
+    /* border: 2px solid black; */
+    margin: 20px;
+   
+    padding-left: 50px;
+    font-size: xx-large;
+    padding-left: 30px;
+    box-sizing: border-box;   
+}
+.container .second-box .main-text .btn{
+    color: black;
+    background-color:red;
+    padding: 9px;
+    width: 150px;
+    padding-top: 5px;
+    margin-left: 10px;
+    position: relative;
+    font-weight: bold; 
+    /* transition: 05s; */
+}
+.container .second-box .main-text .btn:active{
+    /* transform:scale(1.1); */
+    background-color: rgb(0, 225, 255);
+}
+.container .text-box .icons{
+    font-size: 40px;
+}
+.abc{
+    height:35px;
+    width:37%;
+    border-radius:3px;
+    margin: 12px;
+}
